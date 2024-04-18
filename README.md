@@ -83,10 +83,10 @@ To get started with Canarity on your local machine, follow these steps
 ## Usage
 
 As of right now, you can use the app to search for different clinics/consults, to do so you must :
- - 1.  On the main page, head to the 'Health' section
- - 2.  Then, search for the specialization you want to look up
- - 3.  Once you've found it, click on the container to see more information.
- - 4.  Finally, the information shall be available to you.
+1.  On the main page, head to the 'Health' section
+2.  Then, search for the specialization you want to look up
+3.  Once you've found it, click on the container to see more information.
+4.  Finally, the information shall be available to you.
 
 * Not all specialization have information about them.
 
@@ -94,7 +94,9 @@ As of right now, you can use the app to search for different clinics/consults, t
 
 ## Author
 
-Ancor - [@AncorGG](https://github.com/AncorGG)
+I have developed this project by myself for some classwork
+
+Ancor - [Github](https://github.com/AncorGG)
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
