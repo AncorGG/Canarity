@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Seccion 1 */
+
+.homepage-section {
+  position: relative;
+  text-align: center;
+  padding: 5em 0em;
+  background-color: rgba(225, 253, 255, 0.4);
+}
+
+.homepage-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-image: url("./images/bg-image.jpg");
+  opacity: 0.25;
+  background-size: cover;
+}
+
+.homepage-title {
+  font-size: 4rem;
+  font-weight: bolder;
+  margin-bottom: 0.3em;
+  margin-top: 1em;
+  color: #4ccd99;
+  text-shadow: 0px 6px 3px rgba(0, 0, 0, 0.15);
+}
+
+.homepage-subtitle {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin: 0 1em 0.7em 1em;
+  color: #828282;
+}
+
+.homepage-btn {
+  background-color: #007f73;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: 4px;
+  transition: background-color 0.5s ease-in;
+}
+
+.homepage-btn:hover {
+  background-color: #4ccd99;
+}
+
+/* Seccion 2 */
+
+.homepage-faq-section {
+  margin: 6em 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.homepage-faq-title {
+  font-weight: bolder;
+}
+
+.homepage-dot {
+  font-size: 50px;
+}
+
+.homepage-question {
+  margin: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homepage-question h4 {
+  font-size: 1.2em;
+}
+
+.homepage-plus-icon {
+  font-size: 25px;
+  margin-left: 1em;
+  color: #003324;
+  cursor: pointer;
+  transition: color ease 0.3s;
+}
+
+.homepage-plus-icon:hover {
+  color: #4ccd99;
+}
+
+.homepage-awnser {
+  margin: 1em;
+  display: none;
+  justify-content: space-between;
+  align-items: baseline;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.active {
+  opacity: 1;
+  display: flex;
+}
+
+.homepage-awnser p {
+  color: #828282;
+  font-size: 0.9rem;
+}
+
+/* Media query Pequeño */
+@media only screen and (max-width: 768px) {
+}
+
+/* Media query Mediano */
+@media only screen and (min-width: 768px) {
+  .homepage-faq-section {
+    margin: 6em;
+  }
+}
+
+/* Media query Grande */
+@media only screen and (min-width: 900px) {
+  .homepage-btn {
+    font-size: 1.2rem;
+  }
+  .homepage-subtitle {
+    font-size: 2rem;
+  }
+  .homepage-title {
+    font-size: 6rem;
+  }
+
+  .homepage-question h4 {
+    font-size: 1.5em;
+  }
+  .homepage-awnser-active {
+    margin-left: 4em;
+  }
+
+  .homepage-awnser-active p {
+    color: #828282;
+    font-size: 1.1rem;
+  }
+}

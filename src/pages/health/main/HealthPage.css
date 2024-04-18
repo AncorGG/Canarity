@@ -1,0 +1,102 @@
+.health-search-section {
+  display: flex;
+  justify-content: center;
+}
+
+.health-search-bar {
+  display: flex;
+  justify-content: center;
+  margin: 4em;
+  margin-top: 12em;
+  padding: 0.6em;
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+#search-specialist {
+  text-decoration: none;
+  border: none;
+}
+
+#search-specialist:focus {
+  outline: none;
+}
+
+.search-btn {
+  background-color: transparent;
+  border: none;
+}
+
+/* Containers */
+
+.health-containers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 6em;
+}
+
+.health-container-link{
+  text-decoration: none;
+  color: inherit;
+}
+
+.health-container {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  cursor: pointer;
+  margin: 1em 0;
+}
+
+.health-container-upper {
+  display: flex;
+  justify-content: center;
+  padding: 1.2em;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px 10px 0 0;
+  border-bottom: none;
+}
+
+.health-container-name {
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.health-container-image {
+  height: 10em;
+  object-fit: cover;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 10px 10px;
+  border-top: none;
+}
+
+/* Media query Pequeño */
+@media only screen and (min-width: 470px) {
+  .health-containers {
+    margin: 0 2em 6em 2em;
+  }
+}
+
+/* Media query Mediano */
+@media only screen and (min-width: 650px) {
+  .health-containers {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 2em 6em 2em;
+  }
+
+  .health-container {
+    width: 42%;
+    margin: 1em;
+  }
+}
+
+/* Media query Grande */
+@media only screen and (min-width: 1020px) {
+  .health-container {
+    width: 29%;
+    margin: 1em;
+  }
+}

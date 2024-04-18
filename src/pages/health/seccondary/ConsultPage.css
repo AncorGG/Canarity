@@ -1,0 +1,114 @@
+.consult-selected {
+  margin-top: 10em;
+  display: flex;
+  justify-content: center;
+}
+
+.consult-health-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 95%;
+}
+
+.consult-container-upper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.2em;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px 10px 0 0;
+  border-bottom: none;
+}
+
+.consult-container-name {
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.consult-container-image {
+  height: 10em;
+  object-fit: cover;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 10px 10px;
+  border-top: none;
+}
+
+/* Consult Section*/
+
+.consult-card-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.consult-card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 1.2em;
+  margin: 2em 0;
+  width: 95%;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Not Found*/
+
+.consult-not-found {
+  margin: 3em 0;
+}
+
+/* Media query Pequeño */
+@media only screen and (min-width: 470px) {
+  .consult-health-container,
+  .consult-card-section {
+    margin: 0 2em;
+  }
+}
+
+/* Media query Mediano */
+@media only screen and (min-width: 768px) {
+  .consult-selected {
+    margin-top: 8em;
+  }
+  
+  .consult-health-container,
+  .consult-card {
+    width: 70%;
+  }
+}
+
+/* Media query Grande */
+@media only screen and (min-width: 1000px) {
+
+  .consult-health-container {
+    width: 80%;
+    flex-direction: row;
+  }
+  .consult-container-upper {
+    width: 35%;
+    border-radius: 10px 0 0 10px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    border-right: none;
+  }
+
+  .consult-container-image {
+    width: 65%;
+    object-fit: cover;
+    border-radius: 0 10px 10px 0;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    border-left: none;
+  }
+
+  .consult-card-section {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .consult-card {
+    width: 45%;
+    margin: 2em 1em;
+  }
+}

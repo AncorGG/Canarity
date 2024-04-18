@@ -1,0 +1,124 @@
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 -10px 14px rgba(0, 0, 0, 0.1);
+}
+
+/*Parte Derecha*/
+
+.footer-icon-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+/*Parte Arriba*/
+
+.footer-logo-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: baseline;
+  margin: 2em;
+}
+
+.footer-logo-section h5 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.footer-logo {
+  margin: 1em;
+  width: 30px;
+  height: 30px;
+}
+
+/*Parte Debajo*/
+.gg-figma {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  width: 14px;
+  height: 20px;
+  transform: scale(var(--ggs,1));
+  background:
+  linear-gradient(
+     to left,
+     currentColor 3px,
+     transparent 0
+  ) no-repeat 3px 7px/3px 6px,
+  linear-gradient(
+     to left,
+     currentColor 3px,
+     transparent 0
+  ) no-repeat 3px 14px/3px 3px
+}
+
+.gg-figma::after,
+.gg-figma::before {
+   content: "";
+   display: block;
+   box-sizing: border-box;
+   position: absolute;
+   width: 13px;
+   height: 6px;
+   background: currentColor;
+   border-radius: 22px
+}
+.gg-figma::after {
+   width: 6px;
+   top: 7px;
+   box-shadow: 7px 0 0,0 7px 0
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em;
+}
+
+.footer-icon {
+  font-size: 19px;
+  margin: 0 1em;
+  text-decoration: none;
+  color: #828282;
+  transition: color ease 0.3s;
+}
+
+.footer-icon:hover {
+  color: #000000;
+}
+
+/*Parte Izquierda*/
+
+.footer-info {
+  margin: auto;
+  margin-top: 3em;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+/* Media query Pequeño */
+@media only screen and (max-width: 768px) {
+}
+
+/* Media query Grande */
+@media only screen and (min-width: 768px) {
+  .footer-section {
+    flex-direction: row;
+  }
+
+  .footer-icons {
+    justify-content: end;
+  }
+
+  .footer-logo-section {
+    justify-content: end;
+  }
+  
+}
