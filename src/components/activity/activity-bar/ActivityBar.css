@@ -1,0 +1,32 @@
+.activity-bar {
+  padding: 12em 0 6em 0;
+  display: flex;
+  justify-content: center;
+}
+
+.activity-bar-box {
+  width: 90%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+}
+
+.activity-bar-fill {
+    height: 100%; 
+    background: #007f73;
+    background: linear-gradient(90deg, rgba(0,127,115,1) 0%, rgba(76,205,153,1) 100%);
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+.activity-bar-text {
+  padding: 0.8em;
+  font-size: 1.5em;
+  position: relative;
+  z-index: 1;
+  margin: 0em;
+}

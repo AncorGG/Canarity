@@ -1,0 +1,66 @@
+.editor-body-section {
+  margin: 10em auto 3em auto;
+  padding: 1em;
+  width: 92%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 1em;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+.editor-title {
+  display: flex;
+  margin-bottom: 1em;
+  align-items: center;
+}
+
+.editor-text:focus {
+  outline: none;
+}
+
+.editor-text {
+  text-decoration: none;
+  border: none;
+}
+#name {
+  font-size: 1.3em;
+  width: 10;
+}
+#description {
+  font-size: 1em;
+  margin-left: 2em;
+}
+
+.editor-description-title {
+  margin: 0;
+}
+
+.editor-submition {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.3em 0 0;
+}
+
+.editor-submit-btn {
+  background-color: white;
+  border: none;
+  font-size: 1.3em;
+}
+
+#send {
+  color: #4ccd99;
+}
+
+#delete {
+  color: #ff5454;
+}
+
+.editor-list-title {
+  margin-right: auto ;
+}
+
+h1 {
+  margin-bottom: 0em;
+}

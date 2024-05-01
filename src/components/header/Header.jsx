@@ -4,14 +4,14 @@ import { useEffect, useState } from "react";
 
 function Header() {
 
-	const [displayValue, setDisplayValue] = useState(0);
+	const [displayValue, setDisplayValue] = useState(1);
 
 	useEffect(() => {
 		const pathname = window.location.pathname;
 		const links = document.querySelectorAll('.header-link');
 
 		links.forEach(link => {
-			if (link.getAttribute('href') === pathname || (pathname.startsWith('/consult') && link.getAttribute('href') === '/health')) {
+			if (link.getAttribute('href') === pathname || (pathname.startsWith('/consult') && link.getAttribute('href') === '/health') || (pathname.startsWith('/editor') && link.getAttribute('href') === '/activity')) {
 				link.classList.add('selected');
 			}
 			else {

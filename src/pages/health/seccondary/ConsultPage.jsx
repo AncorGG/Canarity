@@ -10,8 +10,8 @@ import { Icon0SquareFill } from "react-bootstrap-icons";
 function ConsultPage() {
 
 	const { medic, url } = useParams();
-	const medicValue = medic.substring(1);
-	const urlValue = url.substring(1);
+	const medicValue = medic;
+	const urlValue = url;
 	const medicName = capitalize(medicValue);
 
 	return (

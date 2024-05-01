@@ -25,7 +25,7 @@ function HealthPage() {
 
 	const handleOnClick = (medicName, url) => {
 		console.log(medicName);
-		navigate('/consults/:'+medicName+'/:'+url);
+		navigate('/consults/'+medicName+'/'+url);
 	}
 
 	return (
