@@ -55,7 +55,7 @@ This project has been built using:
 
 - [![React][React.js]][React-url]
 - [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-- [![Firebase][Firebase.com]][Frebase-url]
+- [![Firebase][Firebase.com]][Firebase-url]
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
