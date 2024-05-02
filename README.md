@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/AncorGG/Canarity.git">
-    <img src="/public/icons/logo-black.png" alt="Logo" width="80" height="80">
+    <img src="/public/icons/logo-white.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Canarity!</h3>
@@ -55,6 +55,7 @@ This project has been built using:
 
 - [![React][React.js]][React-url]
 - [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+- [![Firebase][Firebase.com]][Frebase-url]
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
@@ -90,6 +91,13 @@ As of right now, you can use the app to search for different clinics/consults, t
 
 * Not all specialization have information about them.
 
+You may also create a daily activity schedule :
+1.  On the main page, head to the 'Activity' section.
+2.  On here you can see the percentage of activities finished.
+3.  You can click on the icon to change the state of the activity.
+4.  If you select an activity you can go to the editor to change its name, description or to delete it.
+5.  Clicking on the + icon takes you to the editor to create a new activity.
+
 <p align="right"><a href="#readme-top">back to top</a></p>
 
 ## Author
@@ -106,6 +114,7 @@ Thank you so much for checking up this project!
 
 Here you have some resources that I've used:
 
+- [Firebase](https://firebase.google.com/?hl=es)
 - [Figma Project](https://www.figma.com/file/BUvGAkha8sdOpJB1d4ZuVZ/Canarity!?type=design&node-id=0%3A1&mode=design&t=U6ha5OEjohXUHUt1-1) - Project design
 - [Boostra Icons](https://icons.getbootstrap.com) - Icons
 - [W3Schools](https://www.w3schools.com) - Information resources
