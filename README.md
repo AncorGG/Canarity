@@ -125,3 +125,10 @@ Here you have some resources that I've used:
 - Special thanks to [IES_El_Rincon](https://www3.gobiernodecanarias.org/medusa/edublog/ieselrincon/) for their support and guidance throughout the project.
 
 <p align="right"><a href="#readme-top">back to top</a></p>
+
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com
+[Firebase.com]: https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black
+[Firebase-url]:https://firebase.google.com/?hl=es
