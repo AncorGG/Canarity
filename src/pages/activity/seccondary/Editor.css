@@ -10,10 +10,18 @@
   border-radius: 15px;
 }
 
+.editor-form {
+  width: 100%;
+  display: flex table-column;
+  justify-content: space-around;
+}
+
 .editor-title {
+  width: 100%;
   display: flex;
   margin-bottom: 1em;
   align-items: center;
+  justify-content: space-between;
 }
 
 .editor-text:focus {
@@ -24,6 +32,7 @@
   text-decoration: none;
   border: none;
 }
+
 #name {
   font-size: 1.3em;
   width: 10;
@@ -63,4 +72,19 @@
 
 h1 {
   margin-bottom: 0em;
+}
+
+
+/* Media query Mediano */
+@media only screen and (min-width: 480px) {
+  .editor-body-section, .activity-list {
+    width: 75%;
+  }
+}
+
+/* Media query Grande */
+@media only screen and (min-width: 900px) {
+  .editor-body-section , .activity-list{
+    width: 65%;
+  }
 }

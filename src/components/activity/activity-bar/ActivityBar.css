@@ -30,3 +30,17 @@
   z-index: 1;
   margin: 0em;
 }
+
+/* Media query Pequeño */
+@media only screen and (min-width: 400px) {
+  .activity-bar-box{
+    width: 80%;
+  }
+}
+
+/* Media query Grande */
+@media only screen and (min-width: 768px) {
+  .activity-bar-box{
+    width: 65%;
+  }
+}

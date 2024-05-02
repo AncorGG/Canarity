@@ -81,11 +81,11 @@ function Editor() {
 		<>
 			<Header />
 			<div className="editor-body-section">
-				<form onSubmit={handleSubmit}>
+				<form onSubmit={handleSubmit} className="editor-form">
 
 					<div className="editor-title">
 						<input type="text" className="editor-text" placeholder="Activity Text . . . " name="name" id="name" value={activityName} onChange={(e) => setActivityName(e.target.value)} />
-						<Icon.Pen />
+						<i><Icon.Pen /></i>
 					</div>
 
 					<div className="editor-description">

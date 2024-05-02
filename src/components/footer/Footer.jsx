@@ -30,7 +30,7 @@ function Footer() {
 					<a href="https://github.com/AncorGG" target="blank" className="footer-icon"><Icon.Github /></a>
 					<a href="https://www.figma.com/file/BUvGAkha8sdOpJB1d4ZuVZ/Canarity!?type=design&node-id=0%3A1&mode=design&t=XQ7pavzJ2RYQN7zR-1" target="blank" className="footer-icon"><i className="gg-figma"/></a>
 					<a href="https://www.linkedin.com/in/ancor-garcía-guedes-43a42a223/" target="blank" className="footer-icon"><Icon.Linkedin /></a>
-					<a href="#" target="blank" className="footer-icon"><Icon.Git /></a>
+					<a href="https://github.com/AncorGG/Canarity" target="blank" className="footer-icon"><Icon.Git /></a>
 				</div>
 			</div>
 		</div>
