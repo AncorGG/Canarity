@@ -23,10 +23,10 @@ function CardHeader() {
 				<div className="home-card">
 					<img src="./images/image3.jpg" alt="doctor_image_3" className="card-img" />
 					<ul>
-						<li className="card-text">Appointments</li>
-						<li className="card-text">Medicine Scheduler</li>
+						<li className="card-text">Medicine News</li>
+						<li className="card-text">Recomendations</li>
 					</ul>
-					<a href="/assistance"  className="card-btn-fill"><button className="homepage-btn">Assistance</button></a>
+					<a href="/assistance"  className="card-btn-fill"><button className="homepage-btn">Feed</button></a>
 				</div>
 			</div>
 		</>

@@ -23,7 +23,7 @@ function HomePage() {
 
       <CardHeader></CardHeader>
 
-      <div className="homepage-faq-section">
+      <div className="homepage-faq-section" id="faq">
         <h1 className="homepage-faq-title"> <i className="homepage-dot"><Icon.Dot /></i> FAQ</h1>
         <div className="homepage-question">
           <h4>Is this the firs question of the webpage?</h4>

@@ -17,7 +17,7 @@ function ConsultPage() {
 	return (
 		<>
 			<Header />
-			<div className="consult-selected">
+			<div className="consult-selected" id="consult-start">
 				<div className="consult-health-container" key='1'>
 					<div className="consult-container-upper">
 						<h1 className="consult-container-name">{medicName}</h1>

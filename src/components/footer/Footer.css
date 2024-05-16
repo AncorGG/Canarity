@@ -105,10 +105,11 @@
 
 .footer-info-part {
   margin-bottom: 1em;
+  text-align: center;
 }
 
 /* Media query Pequeño */
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 450px) {
   .footer-info {
     flex-direction: row;
     align-items: flex-end;

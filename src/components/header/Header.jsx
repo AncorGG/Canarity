@@ -37,8 +37,8 @@ function Header() {
 				<div className="header-buttons">
 					<a className="header-link" href="/health">Health</a>
 					<a className="header-link" href="/activity">Activity</a>
-					<a className="header-link" href="/assistance">Assistance</a>
-					<a href="/assistance" className="header-link-button"><button className="header-login-btn">Sign Up</button></a>
+					<a className="header-link" href="/feed">Feed</a>
+					<a href="/feed" className="header-link-button"><button className="header-login-btn">Sign Up</button></a>
 					<i className="header-max-profile-icon"><Icon.PersonFill /></i>
 				</div>
 			}

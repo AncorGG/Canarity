@@ -5,7 +5,7 @@
 
 .health-search-bar {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin: 4em;
   margin-top: 12em;
   padding: 0.6em;
@@ -16,6 +16,7 @@
 #search-specialist {
   text-decoration: none;
   border: none;
+  width: 100%;
 }
 
 #search-specialist:focus {
@@ -90,6 +91,10 @@
   .health-container {
     width: 42%;
     margin: 1em;
+  }
+
+  .health-search-bar {
+    width: 60%;
   }
 }
 

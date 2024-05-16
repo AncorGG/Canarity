@@ -86,6 +86,7 @@
 
 .header-link-button {
   display: none;
+  text-decoration: none;
 }
 
 .header-link {

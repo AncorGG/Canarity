@@ -13,6 +13,7 @@ function Editor() {
 	const activityKey = key;
 
 	const [activities, setActivities] = useState([]);
+	const [showDeleteModal, setShowDeleteModal] = useState(false);
 
 	const selectedActivity = activities.find(activity => activity.key === activityKey);
 	const [activityName, setActivityName] = useState('');
@@ -77,6 +78,11 @@ function Editor() {
 		}
 	}
 
+	const handleAlterDeleteModal = () => {
+		setShowDeleteModal(!showDeleteModal);
+	}
+
+
 	return (
 		<>
 			<Header />
@@ -96,7 +102,7 @@ function Editor() {
 					</div>
 
 					<div className="editor-submition">
-						<button className="editor-submit-btn" id="delete" type="button" onClick={handleDelete}><Icon.Trash /></button>
+						<button className="editor-submit-btn" id="delete" type="button" onClick={handleAlterDeleteModal}><Icon.Trash /></button>
 						<button className="editor-submit-btn" id="send" type="submit"><Icon.Check2All /></button>
 					</div>
 
@@ -112,6 +118,25 @@ function Editor() {
 			</div>
 
 			<Footer />
+
+			{showDeleteModal && (
+                <div className="feed-modal-overlay">
+                    <div className="feed-modal">
+                        <div className="feed-modal-header">
+                            <h5>Confirm Delete</h5>
+                        </div>
+                        <div className="feed-modal-body">
+                            Are you sure you want to delete this activity?
+                        </div>
+                        <div className="feed-modal-footer">
+                            <button onClick={handleAlterDeleteModal} className="feed-btn-cancel">Cancel</button>
+                            <button onClick={() => { handleDelete(); handleAlterDeleteModal(); }} className="feed-btn-delete">Delete</button>
+                        </div>
+                    </div>
+                </div>
+            )}
+
+
 		</>
 	)
 }

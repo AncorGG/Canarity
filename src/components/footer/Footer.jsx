@@ -1,19 +1,21 @@
 import "./Footer.css"
 import * as Icon from "react-bootstrap-icons"
+import { Link } from 'react-router-dom';
+
 
 function Footer() {
 	return (
 		<div className="footer-section">
 			<div className="footer-info">
 				<div className="footer-info-part">
-					<p>Topic</p>
-					<p>Info 1</p>
-					<p>Info 2</p>
+					<p>Info</p>
+					<p><Link to="/home">About Us</Link></p>
+					<p><Link to="/home#faq">FAQ</Link></p>
 				</div>
 				<div className="footer-info-part">
-					<p>Topic</p>
-					<p>Info 1</p>
-					<p>Info 2</p>
+					<p>Other Pages</p>
+					<p><Link to="/health">Health</Link></p>
+					<p><Link to="/activity">Activity</Link></p>
 				</div>
 				<div className="footer-info-part">
 					<p><Icon.CCircle/>2024 Derechos Reservados</p>
@@ -30,7 +32,7 @@ function Footer() {
 					<a href="https://github.com/AncorGG" target="blank" className="footer-icon"><Icon.Github /></a>
 					<a href="https://www.figma.com/file/BUvGAkha8sdOpJB1d4ZuVZ/Canarity!?type=design&node-id=0%3A1&mode=design&t=XQ7pavzJ2RYQN7zR-1" target="blank" className="footer-icon"><i className="gg-figma"/></a>
 					<a href="https://www.linkedin.com/in/ancor-garcía-guedes-43a42a223/" target="blank" className="footer-icon"><Icon.Linkedin /></a>
-					<a href="https://github.com/AncorGG/Canarity" target="blank" className="footer-icon"><Icon.Git /></a>
+					<a href="https://www.disabled-world.com/health/rss.xml" target="blank" className="footer-icon"><Icon.RssFill /></a>
 				</div>
 			</div>
 		</div>

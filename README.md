@@ -36,8 +36,6 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 This project's focus is to contribute to an easy access to medical health care information and to also promote an active lifestyle.
 
 Mantaining a healthy lifestyle contributes to the following:
