@@ -109,7 +109,7 @@ You may also create a daily activity schedule :
 We have our own rss feed for the displayed project, on the 'Feed' section you can watch the news uploaded.
 On the footer you can also check out the xml-file, you may use the link on that page to read that content on other rss readers as seen below.
 
-![RSS Reader](/images/Feedly.png)
+![RSS Reader](/images/feedly.png)
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
