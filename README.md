@@ -8,6 +8,11 @@
   <p align="center">
     Let's promote health care!
   </p>
+
+  <a align="center" href="https://canarity-69ee7.web.app/feed">
+    Check our page!
+  </a>
+
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -27,6 +32,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
+    <li><a href="#feed">Feed</a></li>
     <li><a href="#author">Author</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -46,7 +52,6 @@ Mantaining a healthy lifestyle contributes to the following:
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
-
 ### Built With
 
 This project has been built using:
@@ -56,7 +61,6 @@ This project has been built using:
 - [![Firebase][Firebase.com]][Firebase-url]
 
 <p align="right"><a href="#readme-top">back to top</a></p>
-
 
 ## Getting Started
 
@@ -82,19 +86,30 @@ To get started with Canarity on your local machine, follow these steps
 ## Usage
 
 As of right now, you can use the app to search for different clinics/consults, to do so you must :
+
 1.  On the main page, head to the 'Health' section
 2.  Then, search for the specialization you want to look up
 3.  Once you've found it, click on the container to see more information.
 4.  Finally, the information shall be available to you.
 
-* Not all specialization have information about them.
+- Not all specialization have information about them.
 
 You may also create a daily activity schedule :
+
 1.  On the main page, head to the 'Activity' section.
 2.  On here you can see the percentage of activities finished.
 3.  You can click on the icon to change the state of the activity.
 4.  If you select an activity you can go to the editor to change its name, description or to delete it.
 5.  Clicking on the + icon takes you to the editor to create a new activity.
+
+<p align="right"><a href="#readme-top">back to top</a></p>
+
+## Feed
+
+We have our own rss feed for the displayed project, on the 'Feed' section you can watch the news uploaded.
+On the footer you can also check out the xml-file, you may use the link on that page to read that content on other rss readers as seen below.
+
+![RSS Reader](/images/Feedly.png)
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
@@ -129,4 +144,4 @@ Here you have some resources that I've used:
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
 [Firebase.com]: https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black
-[Firebase-url]:https://firebase.google.com/?hl=es
+[Firebase-url]: https://firebase.google.com/?hl=es
