@@ -13,7 +13,7 @@ function Feed() {
 	useEffect(() => {
 		const fetchRssData = async () => {
 			try {
-				const response = await fetch('https://www.disabled-world.com/health/rss.xml');
+				const response = await fetch('https://canarity-69ee7.web.app/rss/health_rss.xml');
 				const xml = await response.text();
 				const jsonData = xml2js.xml2json(xml, { compact: true, spaces: 4 });
 				setRssData(JSON.parse(jsonData));
