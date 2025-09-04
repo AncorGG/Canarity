@@ -9,7 +9,7 @@
     Let's promote health care!
   </p>
 
-  <a align="center" href="https://canarity-69ee7.web.app/feed">
+  <a align="center" href="https://canarity-69ee7.web.app/home">
     Check our page!
   </a>
 
